@@ -1,0 +1,52 @@
+.SignInFormContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  width: 25%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin-top: 10%;
+  border-radius: 15px;
+  background: rgba(55, 55, 55, 0.184);
+  box-shadow: 4px 4px 4px rgb(51, 50, 50);
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+}
+
+.SignInFormContainer-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 95%;
+  letter-spacing: 5px;
+
+  /* border: 2px solid greenyellow; */
+}
+
+.Inputs {
+  margin-top: 5%;
+  height: 12%;
+  background: none;
+  outline: none;
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 10px;
+  color: rgb(199, 199, 199);
+  padding-left: 5%;
+  letter-spacing: 5px;
+}
+
+.FormButton {
+  margin-top: 5%;
+  height: 12%;
+  background: none;
+  outline: none;
+  /* border: 1px solid rgb(101, 101, 101); */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.56);
+  letter-spacing: 5px;
+}
